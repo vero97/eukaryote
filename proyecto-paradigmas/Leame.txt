@@ -1,0 +1,86 @@
+Alumna: Verònica Nicoll Dominguez Centurion
+CI: 5.501.034
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Una vez que se haya descomprimido el archivo .ZIP
+
+Abrir el terminal ubicarse en el directorio que corresponde. Ejemplo: /Escritorio/2_ExamenParcial
+
+- Ejecutar todas las clases para probarlas cada una. Si asi lo prefire:
+
+exec(open("Persona.py").read())
+exec(open("Producto.py").read())
+exec(open("Contacto.py").read())
+exec(open("Empresa.py").read())
+exec(open("Proveedor.py").read())
+exec(open("Tarjeta.py").read())
+exec(open("Comprobante.py").read())
+exec(open("mizodb.py").read())
+exec(open("modelo.py").read())
+exec(open("vista.py").read())
+exec(open("controlador.py").read())
+exec(open("GUI.py").read())
+
+
+ - Ejecutar el script:
+
+ exec(open("api.py").read())
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Las operaciones de nuestro proyecto estan en el archivo: modelo.py
+Las llamadas y pasos de parametros lo realiza el archivo: controlador.py
+Los ingresos de valores, opciones, impresiones lo realiza el archivo: vista.py
+El archivo que contiene nuestra interfaz es: api.py
+
+-------------------------------------------------------------------------------------------------------------------------------------
+Empleados:
+
+5501034, Veronica Dominguez, usuario:vero, contraseña:vero123
+5500859, Alejandro Dominguez, usuario:adominguez, contraseña: adominguez
+
+
+Clientes: 
+
+2496978, Fanny Dominguez
+3445569, Diego Denis
+0, Sin Nombre
+
+Proveedores:
+
+8005003 - 3, Don Pedro Insumos.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Actualmente los productos ingresados a nuestra base de datos son:
+
+Hamburguesa: HS01, HS02, HS03
+Pizza: PI01, PI02, PI03, PI04
+Papa Frita: PF01, PF02
+Lomitos: LO01, LO02 
+Bebidas alcoholicas: CA01
+Bebidas NO alcoholicas: SA01
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Para ejecular el script prolog:
+- Abrir el terminal, ubicarse en el directorio correspondiente.
+- Escribir: swipl
+- Abrir el archivo: consult('prolog.pl').
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Para ejecular el script funcional:
+- Abrir el terminal, ubicarse en el directorio correspondiente.
+- Escribir: python3
+- Abrir el archivo: exec(open("funcional.py").read())
+- Llamar a la clase: f = ProgramaFuncional()
+- Llamar a la funcion: f.imprimir_factura()
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+OBS IMPORTANTE: Como el sistema no està terminado, y tiene fallas que ya no logrè corregir en cuanto a interfaz, 
+para verificar que se instancian las clases puede probar agregar desde el script controlador.py (tener en cuenta, que si bien
+hay una clase tarjeta)
+
+
